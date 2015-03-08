@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<link rel=stylesheet type="text/css" href="index.css"></link>
+		<script src="index.js"></script>
 		<title>2015成大盃電競大賽</title>	
 	</head>
 	<body>
 		<div id="wrapper">
-			<div id="header">
-				
+			<div style="width:100vw;height:14vw;">
+				<center style="height:100%;"><img id="index_header" src="Resources/header.png" /></center>
+			</div>
+			<div id="menu">
+				<img id="uther_button" class="indexbutton" src="Resources/uther_button_index.png" onmouseover="uther_mouseover()" onmouseout="uther_mouseout()" onclick="location.href='intro.html';"/>
+				<img id="raxar_button" class="indexbutton" src="Resources/raxar_button_index.png" onmouseover="raxar_mouseover()" onmouseout="raxar_mouseout()" />
+				<img id="garrosh_button" class="indexbutton" src="Resources/garrosh_button_index.png" onmouseover="garrosh_mouseover()" onmouseout="garrosh_mouseout()" />
+				<img id="gultan_button" class="indexbutton" src="Resources/gultan_button_index.png" onmouseover="gultan_mouseover()" onmouseout="gultan_mouseout()" />
+				<img id="malfurion_button" class="indexbutton" src="Resources/malfurion_button_index.png" onmouseover="malfurion_mouseover()" onmouseout="malfurion_mouseout()" />
+			</div>
+			<div id="content">
+				<div id="news">
+					<img src="Resources/News_index.png" style="margin-top:12%;margin-left:2%;width:30%;" />
+				</div>
+				<div id="current">
+					<img src="Resources/Current_index.png" style="margin-top:12%;margin-left:2%;width:30%;" />
+				</div>
 			</div>
 		</div>
 	</body>

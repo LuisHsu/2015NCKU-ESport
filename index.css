@@ -6,8 +6,49 @@ body{
 	height:100vh;
 	background-image: url("Resources/back.png");
 }
-#header{
-	width:100%;
-	height:60%;
-	
+#index_header{
+	width:27vw;
+	height:100%;
+}
+#menu{
+	width:75vw;
+	position:relative;
+	height:12vw;
+	margin:auto;
+	padding-left:12.5%;
+	z-index:2;
+}
+
+#content{
+	width:70vw;
+	position:relative;
+	left:14vw;
+	height:calc(100vh - 27vw);
+	border-style:solid;
+	border-color:#ffffff;
+	background-color:#000000;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+.indexbutton{
+	padding:0.5%;
+	width:15%;
+	height:135%;
+}
+#news{
+	width:50%;
+	height:100%;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-color:#444444;
+	color:#ffffff;
+}
+#current{
+	width:50%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:50%;
+	color:#ffffff;
 }

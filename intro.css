@@ -1,0 +1,72 @@
+body{
+	margin:0;
+	background-color:#000000;
+}
+#wrapper{
+	width:100%;
+	min-height:100vh;
+	background-image: url("Resources/back_content.png");
+	background-repeat: no-repeat;
+	background-color:#000000;
+}
+#index_header{
+	width:27vw;
+	height:100%;
+}
+#menu{
+	width:75vw;
+	position:relative;
+	height:12vw;
+	padding-left:6%;
+	z-index:2;
+}
+#uther_button{
+	margin-left:4%;
+}
+#raxar_button{
+	margin-left:3%;
+}
+#content{
+	width:70vw;
+	position:relative;
+	left:14vw;
+	min-height:calc(100vh - 27vw);
+	border-style:solid;
+	border-color:#ffffff;
+	background-color:#000000;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+#submenu{
+	margin-top:1%;
+	position:absolute;
+	width:20vw;
+	height:44%;
+	right:5%;
+	z-index:2;
+}
+.subButton{
+	width:100%;
+}
+.indexbutton{
+	position:relative;
+	padding:0.5%;
+	top:22%;
+	width:13%;
+	height:115%;
+	z-index:4;
+}
+#victory_content{
+	position:absolute;
+	width:20%;
+	height:150%;
+	z-index:3;
+}
+#content_frame{
+	margin:1%;
+	margin-top:8%;
+	width:80%;
+	border-style:none;
+	height:600px;
+}
