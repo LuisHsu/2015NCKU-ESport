@@ -11,7 +11,7 @@ function raxar_mouseover(){
 function raxar_mouseout(){
 	document.getElementById("raxar_button").src="Resources/raxar_button_index.png";
 }
-
+/*
 function garrosh_mouseover(){
 	document.getElementById("garrosh_button").src="Resources/garrosh_hover_index.png";
 }
@@ -25,7 +25,7 @@ function gultan_mouseover(){
 function gultan_mouseout(){
 	document.getElementById("gultan_button").src="Resources/gultan_button_index.png";
 }
-
+*/
 function malfurion_mouseover(){
 	document.getElementById("malfurion_button").src="Resources/malfurion_hover_index.png";
 }

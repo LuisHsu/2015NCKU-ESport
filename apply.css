@@ -21,10 +21,10 @@ body{
 	z-index:2;
 }
 #uther_button{
-	margin-left:4%;
+	margin-left:3%;
 }
 #raxar_button{
-	margin-left:3%;
+	margin-left:4%;
 }
 #content{
 	width:70vw;
@@ -65,8 +65,8 @@ body{
 }
 #content_frame{
 	margin:1%;
-	margin-top:8%;
+	margin-top:2%;
 	width:80%;
 	border-style:none;
-	height:1300px;
+	height:850px;
 }
