@@ -5,6 +5,7 @@ body{
 	width:100%;
 	height:100vh;
 	background-image: url("Resources/back.png");
+	background-size: 100% auto;
 }
 #index_header{
 	width:27vw;
