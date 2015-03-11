@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel=stylesheet type="text/css" href="intro.css"></link>
+		<script src="intro.js"></script>
 		<title>2015成大盃電競-活動介紹</title>	
 	</head>
 	<body>
@@ -13,21 +14,21 @@
 			<div id="menu">
 				<img id="victory_content" src="Resources/victory_content.png" />
 				<img id="uther_button" class="indexbutton" src="Resources/uther_button_index.png" />
-				<img id="raxar_button" class="indexbutton" src="Resources/raxar_button_index.png" />
-				<img id="garrosh_button" class="indexbutton" src="Resources/garrosh_button_index.png" />
-				<img id="gultan_button" class="indexbutton" src="Resources/gultan_button_index.png" />
-				<img id="malfurion_button" class="indexbutton" src="Resources/malfurion_button_index.png" />
+				<img id="raxar_button" class="indexbutton" src="Resources/raxar_button_index.png" onmouseover="raxar_mouseover()" onmouseout="raxar_mouseout()" onclick="location.href='apply.html';" />
+				<img id="garrosh_button" class="indexbutton" src="Resources/garrosh_button_index.png" onmouseover="garrosh_mouseover()" onmouseout="garrosh_mouseout()" />
+				<img id="gultan_button" class="indexbutton" src="Resources/gultan_button_index.png" onmouseover="gultan_mouseover()" onmouseout="gultan_mouseout()" />
+				<img id="malfurion_button" class="indexbutton" src="Resources/malfurion_button_index.png" onmouseover="malfurion_mouseover()" onmouseout="malfurion_mouseout()" />
 			</div>
 			<div id="submenu">
-				<img id="garen_button" class="subButton" src="Resources/garen_intro.png" />
-				<img id="ezreal_button" class="subButton" src="Resources/ezreal_intro.png" />
-				<img id="hearthstone_button" class="subButton" src="Resources/hearthstone_intro.png" />
-				<img id="sona_button" class="subButton" src="Resources/sona_intro.png" />
-				<img id="yasuo_button" class="subButton" src="Resources/yasuo_intro.png" />
+				<img id="garen_button" class="subButton" src="Resources/garen_intro.png" onmouseover="garen_mouseover()" onmouseout="garen_mouseout()" onclick="garen_mouseclick()"/>
+				<img id="ezreal_button" class="subButton" src="Resources/ezreal_intro.png" onmouseover="ezreal_mouseover()" onmouseout="ezreal_mouseout()" onclick="ezreal_mouseclick()"/>
+				<img id="hearthstone_button" class="subButton" src="Resources/hearthstone_intro.png" onmouseover="hearthstone_mouseover()" onmouseout="hearthstone_mouseout()" onclick="hearthstone_mouseclick()"/>
+				<img id="sona_button" class="subButton" src="Resources/sona_intro.png" onmouseover="sona_mouseover()" onmouseout="sona_mouseout()" onclick="sona_mouseclick()"/>
+				<img id="yasuo_button" class="subButton" src="Resources/yasuo_intro.png" onmouseover="yasuo_mouseover()" onmouseout="yasuo_mouseout()" onclick="yasuo_mouseclick()"/>
 			</div>
 			<div id="content">
 				<div id="content_frame">
-					<iframe src="intro_main.html" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="background-color:#000000;overflow:hidden;" scrolling="no">載入中…</iframe>
+					<iframe id="content_iframe" src="intro_main.html" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="background-color:#000000;overflow:hidden;" scrolling="no">載入中…</iframe>
 				</div>
 			</div>
 		</div>
