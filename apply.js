@@ -59,5 +59,6 @@ function sona_mouseout(){
 }
 function sona_mouseclick(){
 	document.getElementById("content_iframe").src="https://docs.google.com/forms/d/1Ac4tNY4pX8L-J2ku2qAiU9Z9I2Pd4_6pZkzbvKuEoBY/viewform?embedded=true";
-	document.getElementById("content_frame").style.height="600px";
+	document.getElementById("content_frame").style.height="700px";
+	document.getElementById("content_iframe").height="700";
 }
