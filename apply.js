@@ -58,6 +58,6 @@ function sona_mouseout(){
 	document.getElementById("sona_button").src="Resources/sona_apply.png";
 }
 function sona_mouseclick(){
-	document.getElementById("content_iframe").src="intro_report.html";
+	document.getElementById("content_iframe").src="https://docs.google.com/forms/d/1Ac4tNY4pX8L-J2ku2qAiU9Z9I2Pd4_6pZkzbvKuEoBY/viewform?embedded=true";
 	document.getElementById("content_frame").style.height="600px";
 }
