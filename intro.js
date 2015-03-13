@@ -46,7 +46,7 @@ function ezreal_mouseout(){
 }
 function ezreal_mouseclick(){
 	document.getElementById("content_iframe").src="intro_LoL.html";
-	document.getElementById("content_frame").style.height="1200px";
+	document.getElementById("content_frame").style.height="1700px";
 }
 
 function hearthstone_mouseover(){
