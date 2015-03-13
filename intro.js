@@ -35,7 +35,7 @@ function garen_mouseout(){
 }
 function garen_mouseclick(){
 	document.getElementById("content_iframe").src="intro_main.html";
-	document.getElementById("content_frame").style.height="1700px";
+	document.getElementById("content_frame").style.height="1350px";
 }
 
 function ezreal_mouseover(){
@@ -57,7 +57,7 @@ function hearthstone_mouseout(){
 }
 function hearthstone_mouseclick(){
 	document.getElementById("content_iframe").src="intro_hearth.html";
-	document.getElementById("content_frame").style.height="1300px";
+	document.getElementById("content_frame").style.height="1100px";
 }
 
 function sona_mouseover(){
