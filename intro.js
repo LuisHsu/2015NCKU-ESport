@@ -68,7 +68,7 @@ function sona_mouseout(){
 }
 function sona_mouseclick(){
 	document.getElementById("content_iframe").src="intro_report.html";
-	document.getElementById("content_frame").style.height="600px";
+	document.getElementById("content_frame").style.height="750px";
 }
 
 function yasuo_mouseover(){
