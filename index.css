@@ -27,6 +27,14 @@ body{
 	left:0.5vw;
 	bottom:2%;
 }
+#sponsors2{
+	//background-color:#ffffff;
+	width:13vw;
+	height:40%;
+	position:fixed;
+	right:0.5vw;
+	bottom:2%;
+}
 #content{
 	width:70vw;
 	position:relative;
