@@ -28,6 +28,7 @@ body{
 	width:70vw;
 	position:relative;
 	left:14vw;
+	color:#ffffff;
 	min-height:calc(100vh - 27vw);
 	border-style:solid;
 	border-color:#ffffff;
@@ -50,4 +51,13 @@ body{
 	width:80%;
 	border-style:none;
 	height:2150px;
+}
+#news{
+	margin-top:8%;
+	margin-left:2%;
+	margin-right:2%;
+}
+.hrline{
+	border-width: 1px;
+	opacity:0.5;
 }
