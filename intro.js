@@ -11,14 +11,14 @@ function garrosh_mouseover(){
 function garrosh_mouseout(){
 	document.getElementById("garrosh_button").src="Resources/garrosh_button_index.png";
 }
-
+*/
 function gultan_mouseover(){
 	document.getElementById("gultan_button").src="Resources/gultan_hover_index.png";
 }
 function gultan_mouseout(){
 	document.getElementById("gultan_button").src="Resources/gultan_button_index.png";
 }
-*/
+
 function malfurion_mouseover(){
 	document.getElementById("malfurion_button").src="Resources/malfurion_hover_index.png";
 }
